@@ -1,0 +1,56 @@
+.home-cont {
+    
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    color: black;   
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.descript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.shopbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255); 
+}
+
+.btn-cont a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.btn-cont a:hover {
+    opacity: 0.5;
+}
